@@ -38,7 +38,7 @@ def play_badapple():
             
             # 显示当前帧
             display_frame(frame_data)
-            time.sleep(0.01)  # 延迟70毫秒
+            time.sleep(0.01)  # 延迟10毫秒
 
 # 启动播放
 play_badapple()
