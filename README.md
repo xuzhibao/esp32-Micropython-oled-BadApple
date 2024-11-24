@@ -14,7 +14,7 @@
 
 ### 准备工作 📁：
 
-- 打开仓库目录，解压`source.7z`文件，其中包含：
+- 打开仓库目录，解压`source.zip`文件，其中包含：
   - `Bad Apple.mp4`（4K 60fps）
   - `Img2Lcd`文件夹（v4.0）
 - 下载并安装[KMPlayer](https://dn.kmplayer.com/Dn/kmp32/2411/KMPlayer_4.2.3.19.exe)，用于视频捕捉。
