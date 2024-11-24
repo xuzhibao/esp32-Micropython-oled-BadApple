@@ -41,16 +41,20 @@
 点击开始，并回到视频中开始播放视频，等待播放完成后会在/Source/Pic文件夹下生成制作视频所需的帧图片(约1900张图片，总大小约为46M)
 打开/Source/Img2lcd文件夹，打开Img2Lcd.exe，打开任意一张刚才捕获的图片之一，按照如图进行设置
 
-
+![](https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/Image2.png).
 
 然后点击批量转换并确定，之后会发现/Source/Pic下生成了一个batch文件夹，进入此文件夹并在终端(或者CMD)中打开输入:
   ```bash
 copy  /b  *.ebm  badapple.ebm
   ```
 回车确定，会在batch文件夹下新生成一个badapple.ebm，此二进制文件就是接下来要上传到ESP32中使用oled屏幕播放的文件
+
 打开Thonny，连接好esp32并加载
+
 上传badapple.ebm，同时在ESP32上新建文件夹lib上传ssd1306.py(你也可以先在电脑上的资源管理器新建lib文件夹把ssd1306.py库放进去之后将lib文件夹整个使用Thonny上传到ESP32)
+
 接下来就是编写主程序
+
 ```python
 #main.py
 
