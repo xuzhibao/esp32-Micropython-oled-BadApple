@@ -24,9 +24,7 @@
 >
 > 2.Img2Lcd文件夹(v4.0)
 
-在开始之前还需要下载安装KMPlayer
-
-[KMPlayer]: https://dn.kmplayer.com/Dn/kmp32/2411/KMPlayer_4.2.3.19.exe
+在开始之前还需要下载安装[KMPlayer](https://dn.kmplayer.com/Dn/kmp32/2411/KMPlayer_4.2.3.19.exe)
 
 
 ### 正文：
