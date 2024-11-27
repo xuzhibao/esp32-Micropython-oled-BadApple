@@ -7,7 +7,7 @@
 3. **文件上传** 📤：将`main.py`，`badapple.ebm`，以及`lib`文件夹上传至ESP32。
 4. **屏幕连接** 🖥️：确保0.96寸OLED屏幕已正确连接至ESP32。如有需要，可以调整引脚定义以匹配实际连接。
 5. **运行程序** 🚀：在Thonny中运行`main.py`，然后坐下来享受《Bad Apple!!》带来的视觉盛宴吧！
-
+![连接图示例](https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/lianxian.png)
 ## 制作《Bad Apple!!》教程 📝：
 
 本教程参考了[CSDN博客](https://blog.csdn.net/m0_47329175/article/details/130682985)的部分内容，适用于任何希望将视频转换为OLED屏幕可播放格式的项目。
