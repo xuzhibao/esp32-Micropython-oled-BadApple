@@ -7,8 +7,8 @@
 3. **文件上传** 📤：将`main.py`，`badapple.ebm`，以及`lib`文件夹上传至ESP32。
 4. **屏幕连接** 🖥️：确保0.96寸OLED屏幕已正确连接至ESP32。如有需要，可以调整引脚定义以匹配实际连接。
 5. **运行程序** 🚀：在Thonny中运行`main.py`，然后坐下来享受《Bad Apple!!》带来的视觉盛宴吧！
-![连接图示例](https://raw.kkgithub.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/lianxian.png)
-<!--https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/lianxian.png  -->
+![连接图示例](https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/lianxian.png)
+<!-- https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/lianxian.png -->
 
 ## 制作《Bad Apple!!》教程 📝：
 
@@ -25,15 +25,15 @@
 
 1. 使用KMPlayer打开`Bad Apple.mp4`，将视频暂停在起始位置。
 2. 对画面右键选择“捕获”->“画面:高级捕获...”（或直接按Ctrl+G）。
-   ![捕获设置](https://raw.kkgithub.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/buhuo.png)
+   ![捕获设置](https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/buhuo.png)
    <!--  https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/buhuo.png -->
 4. 在`source`文件夹下创建`Pic`文件夹，根据图示设置参数后点击“开始”，并返回视频播放界面开始播放视频。完成后，你会在`/Source/Pic`文件夹中找到大约1900张图片，总计约46MB。
-   ![捕获过程](https://raw.kkgithub.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/catch.png)
+   ![捕获过程](https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/catch.png)
 <!--https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/catch.png -->
 ### 转换图片为二进制文件 🔄：
 
 1. 打开`/Source/Img2lcd`文件夹中的`Img2Lcd.exe`，选择任意一张刚才捕获的图片，按图示设置参数。
-   ![图片转换](https://raw.kkgithub.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/Image2.png)
+   ![图片转换](https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/Image2.png)
    <!--https://raw.githubusercontent.com/xuzhibao/esp32-Micropython-oled-BadApple/refs/heads/main/Pictures/Image2.png -->
 3. 点击“批量转换”并确认。随后，在`/Source/Pic/batch`文件夹中执行如下命令以合并所有帧图片为一个二进制文件：
    ```bash
